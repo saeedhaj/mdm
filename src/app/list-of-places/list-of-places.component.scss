@@ -1,0 +1,14 @@
+.app-list-of-places {
+    margin-top: 10px;
+    .table-places {
+        width: 300px;
+        margin: 0 auto;
+        .places-one th {
+            padding: 5px;
+        }
+        .places-two td {
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}

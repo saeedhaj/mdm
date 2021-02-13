@@ -1,0 +1,13 @@
+.app-add-places {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form-places {
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 3px 5px #ebebeb;
+        border-style: none;
+    }
+}

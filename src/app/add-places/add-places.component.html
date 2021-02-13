@@ -1,0 +1,26 @@
+<div class="app-add-places">
+    <div fxLayout="row">
+        <form [formGroup]="placesForm" (submit)="onSubmit()" action="" fxLayout="column" class="form-places">
+            <div fxFlex>
+                <mat-form-field appearance="outline">
+                    <mat-label> state</mat-label>
+                    <input formControlName="state" matInput placeholder="Placeholder"  >
+                </mat-form-field>
+            </div>
+            <div fxFlex>
+                <mat-form-field appearance="outline">
+                    <mat-label>city</mat-label>
+                    <input formControlName="city" matInput placeholder="Placeholder" >
+                </mat-form-field>
+            </div>
+            <div fxFlex>
+                <mat-form-field appearance="outline">
+                    <mat-label>alley</mat-label>
+                    <input formControlName="alley" matInput placeholder="Placeholder" >
+                </mat-form-field>
+            </div>
+            <button type="submit" mat-button color="primary">save</button>
+
+        </form>
+    </div>
+</div>
